@@ -1,8 +1,21 @@
 //
 // MirrorBoard one-hand keymapping
+// Forked by Xilin Sun
+// May 2017
+// 
+// I find this piece of keymapping useful when one wants to
+// type at near full speed while eating pizza.
+// Unfortunately, it relies on the use of CapsLock, which 
+// I already remapped to Ctrl. I am hence adding another 
+// modifier to achieve the same functionality. 
+// I plan to make use of the Esc key - use as a modifier 
+// when pressed with letter keys, and use as Esc when 
+// pressed alone.
+//
 // Hacked together by Randall Munroe and neale
 // 2007-06-25
 // 
+
 
 // This is a keymapping for occasional left-handed typing.
 // Run it with 
