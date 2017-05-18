@@ -12,10 +12,11 @@
 // when pressed with letter keys, and use as Esc when 
 // pressed alone.
 //
+
+
 // Hacked together by Randall Munroe and neale
 // 2007-06-25
 // 
-
 
 // This is a keymapping for occasional left-handed typing.
 // Run it with 
@@ -86,8 +87,9 @@ xkb_keymap {
 // old one when not using caps, swap the order here -- you
 // can decide if you want tilde or caps-tilde to be backspace.
 
+// Neither of the following works for me as my tilde is on Esc already
 // Keeps keyboard normal, caps-tilde is backspace:
-    key <TLDE> {	[     asciitilde,	grave,	BackSpace	]	};
+//    key <TLDE> {	[     asciitilde,	grave,	BackSpace	]	};
 // Version I use -- tilde is backspace:
 //    key <TLDE> {	[     BackSpace,	asciitilde,	grave,	asciitilde	]	};
 
